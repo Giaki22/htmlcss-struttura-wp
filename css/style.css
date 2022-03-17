@@ -13,5 +13,9 @@ body{
     margin-bottom: 20px;
 }
 /* Body */
-
+.yellow{
+    background-color: #e1d67a;
+    width: 100%;
+    min-height: 500px;
+}
 /* Footer */
