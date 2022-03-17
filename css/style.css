@@ -4,6 +4,11 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /* Header */
 .head{
@@ -16,6 +21,31 @@ body{
 .yellow{
     background-color: #e1d67a;
     width: 100%;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+.blu{
+    background-color: #0088fc;
+    width: 100%;
+    min-height: 700px;
+}
+.lb{
+    background-color: #abcfe7;
+}
+.blu .head{
+    width: 100%;
+    min-height: 70px;
+    margin-bottom: 20px;
+}
+.blu .left{
+    float: left;
+    width: 25%;
+    min-height: 500px;
+}
+.blu .middle{
+    float: left;
+    width: calc(50% - 30px);
+    margin: auto 15px;
     min-height: 500px;
 }
 /* Footer */
