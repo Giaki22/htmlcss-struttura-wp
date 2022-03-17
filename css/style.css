@@ -8,10 +8,11 @@ body{
     content: "";
     clear: both;
     display: table;
+    margin-bottom: 20px;
 }
 
 /* Header */
-.head{
+header{
     background-color: #e579e6;
     width: 100%;
     min-height: 100px;
@@ -27,7 +28,8 @@ body{
 .blu{
     background-color: #0088fc;
     width: 100%;
-    min-height: 700px;
+    min-height:  610px;
+    margin-bottom: 20px;
 }
 .lb{
     background-color: #abcfe7;
@@ -49,3 +51,9 @@ body{
     min-height: 500px;
 }
 /* Footer */
+footer{
+    background-color: #8801fe;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
